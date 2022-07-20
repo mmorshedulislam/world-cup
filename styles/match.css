@@ -42,7 +42,7 @@ a:hover{
     --font-poppins: 'Poppins', sans-serif;
 }
 
-/* Header CSS */
+/* Header CSS starts */
 .world-cup-header{
     margin: 30px 0;  
 }
@@ -96,7 +96,10 @@ a:hover{
 }
 
 
-/* Scheule match */
+/* Header CSS ends */
+
+
+/* Upcoming match section starts */
 
 .world-cup-blogs{
     padding: 80px 0;
@@ -184,8 +187,10 @@ a:hover{
     color: #4D4D4D;
 }
 
+/* Upcoming match section ends */
 
-/* Footer */
+
+/* Footer starts*/
 footer{
     background: #161616;
     padding: 80px 0;
@@ -217,3 +222,5 @@ hr{
 .social-icons{
     display: none;
 }
+
+/* Footer ends */

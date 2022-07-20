@@ -1,3 +1,5 @@
+/* For Mobiles or small devices */
+
 @media screen and (max-width: 576px) {
     .top-banner{
         flex-direction: column;
@@ -18,15 +20,14 @@
     }
     .schedule-container, .blogs-container{
         grid-template-columns: repeat(1, 1fr);
-
     }
-    .footer-menu{
-        flex-direction: column;
-        row-gap: 20px;
-    }
+   
     .world-cup-blogs {
         margin: 20px 0;
         padding: 0;
+    }
+    .grid-match{
+        grid-template-columns: repeat(1, 1fr);
     }
     .world-cup-blogs .container{
         display: flex;
@@ -62,10 +63,14 @@
         padding: 0 10px;
         font-size: 24px;
     }
-    .grid-match{
-        grid-template-columns: repeat(1, 1fr);
+    .footer-menu{
+        flex-direction: column;
+        row-gap: 20px;
     }
 }
+
+
+/* For Tablets or medium devices */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .top-banner{
@@ -82,6 +87,14 @@
     }
     .top-banner-info a{
         padding: 10px 15px;
+    }
+    .top-banner-info p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .grid-match{
+        grid-template-columns: repeat(1, 1fr);
     }
     .world-cup-blogs{
         padding-top: 0;
@@ -137,25 +150,7 @@
         flex-wrap: wrap;
         gap: 15px;
     }
-    .top-banner-info p{
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .grid-match{
-        grid-template-columns: repeat(1, 1fr);
-    }
+    
 }
 
 
-
-/* .view-al {
-	border: none;
-	background: red;
-	padding: 8px 22px;
-	border-radius: 7px;
-	margin: 9 auto;
-	color: #fff;
-	font-family: var(--font-poppins);
-	text-align: center;
-} */
