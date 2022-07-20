@@ -67,7 +67,7 @@ a:hover{
     font-weight: 700;
     font-size: 70px;
     color: #FFFFFF;
-    line-height: 12vh;
+    line-height: 70px;
 }
 .top-banner-info p{
     font-family: 'Poppins';
@@ -87,7 +87,7 @@ a:hover{
     font-size: 1.1em;
     transition: 2s 2s;
 }
-.top-banner-info a:hover a{
+.top-banner-info a:hover{
     background-color: #FFFFFF;
     border: 2px solid #ddd;
     color: #161616;
@@ -150,10 +150,12 @@ a:hover{
     padding: 10px;
 }
 .blog-details a {
-    border: 1px solid #161616;
-    padding: 7px 15px;
-    display: inline-block;
-    border-radius: 3px;
+	border: 1px solid #161616;
+	padding: 7px 15px;
+	display: inline-block;
+	border-radius: 3px;
+	color: #111;
+	font-family: var(--font-poppins);
 }
 .blog-details h2 {
     font-family: var(--font-poppins);
