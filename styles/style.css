@@ -65,7 +65,7 @@ a:hover{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     color: #FFFFFF;
     line-height: 70px;
 }
@@ -102,7 +102,7 @@ a:hover{
     gap: 20px;
 }
 .side-nav {
-    width: 50%;
+    width: 600px;
     height: 325px;
     background-color: black;
     color: #fff;
