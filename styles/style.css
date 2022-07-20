@@ -48,13 +48,13 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 60px;
     padding-bottom: 0;
 
     background-color: black;
     color: #fff;
     border-radius: 20px;
-}
+} 
 .top-banner-info{
     width: 48%;
 }
@@ -85,16 +85,21 @@ a:hover{
     margin: 15px 0;
     font-family: var(--font-poppins);
     font-size: 1.1em;
-    transition: 2s 2s;
 }
-
+.top-banner-info a:hover{
+    background-color: #FFFFFF;
+    color: #161616;
+    transition: 1s;
+}
 /* Blogs CSS */
 
 .world-cup-blogs{
     padding: 80px 0;
 }
-.world-cup-blogs .container{
-    display: flex;
+.grid-match{
+    display: grid;
+    grid-template-columns: 300px repeat(1, 1fr);
+    gap: 10px;
 }
 .blogs-container{
     display: grid;
@@ -102,7 +107,6 @@ a:hover{
     gap: 20px;
 }
 .side-nav {
-    width: 600px;
     height: 325px;
     background-color: black;
     color: #fff;
@@ -136,7 +140,10 @@ a:hover{
     border-radius: 8px;
     border: 1px solid #ddd;
 }
-
+article.blog-item {
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
 .blog-details{
     padding: 10px;
 }
@@ -164,51 +171,10 @@ a:hover{
     color: #161616b3;
     margin-right: 20px;
 }
+
 .view-all{
-    background-color: #DD0000;
-    border: none;
-    padding: 20px 50px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 5px;
-    width: 30%;
-    margin: 0 auto;
-    margin-bottom: 20px;
     display: none;
-    cursor: pointer;
-    font-family: var(--font-poppins);
 }
-
-/* Scheule match */
-.schedule-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    
-}
-.country-flags{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.country-flags h2{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: #161616;
-}
-.country-flags p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #4D4D4D;
-}
-
 
 /* Footer */
 footer{
