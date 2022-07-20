@@ -11,6 +11,9 @@
         font-size: 14px;
         margin: 10px 0;
     }
+    .top-banner-info a{
+        padding: 10px 15px;
+    }
     .schedule-container, .blogs-container{
         grid-template-columns: repeat(1, 1fr);
 
@@ -63,6 +66,9 @@
         font-size: 4vw;
         color: rgb(255, 255, 255);
         line-height: 8vh;
+    }
+    .top-banner-info a{
+        padding: 10px 15px;
     }
     .world-cup-blogs{
         padding-top: 0;

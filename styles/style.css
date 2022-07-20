@@ -85,6 +85,12 @@ a:hover{
     margin: 15px 0;
     font-family: var(--font-poppins);
     font-size: 1.1em;
+    transition: 2s 2s;
+}
+.top-banner-info a:hover a{
+    background-color: #FFFFFF;
+    border: 2px solid #ddd;
+    color: #161616;
 }
 .top-banner-info a span{}
 
