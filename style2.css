@@ -95,9 +95,9 @@ a:hover{
     padding: 80px 0;
 }
 
-.grid-match{
+/* .grid-match{
     display: flex;
-}
+} */
 .side-nav {
     width: 300px;
     height: 325px;
@@ -132,9 +132,10 @@ a:hover{
 
 .matchs{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 300px repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
     gap: 10px;
+    border: 1px solid #ddd;
 }
 
 .single-match-img{
