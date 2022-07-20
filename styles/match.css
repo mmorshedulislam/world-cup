@@ -1,3 +1,5 @@
+
+
 /* Google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -65,6 +67,7 @@ a:hover{
     font-weight: 700;
     font-size: 70px;
     color: #FFFFFF;
+    line-height: 12vh;
 }
 .top-banner-info p{
     font-family: 'Poppins';
@@ -89,7 +92,7 @@ a:hover{
 }
 .top-banner-img img{}
 
-/* Blogs CSS */
+/* Scheule match */
 
 .world-cup-blogs{
     padding: 80px 0;
@@ -97,13 +100,8 @@ a:hover{
 .world-cup-blogs .container{
     display: flex;
 }
-.blogs-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
 .side-nav {
-    width: 50%;
+    width: 300px;
     height: 325px;
     background-color: black;
     color: #fff;
@@ -128,65 +126,49 @@ a:hover{
     font-size: 20px;
     color: #161616;
 }
-.side-nav a:nth-child(3){
+.side-nav a:first-child{
     background: #DD0000;
     color: #fff;
 }
-.blog-item .schedule-item {
-    box-shadow: 0px 0px 0px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-}
-.blog-thumbnail{}
-.blog-thumbnail img{}
-.blog-details{
-    padding: 10px;
-}
-.blog-details a {
-    border: 1px solid #161616;
-    padding: 7px 15px;
-    display: inline-block;
-    border-radius: 3px;
-}
-.blog-details h2 {
-    font-family: var(--font-poppins);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    color: #161616;
-    padding: 10px 0;
-}
-.blog-details span{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #161616b3;
-    margin-right: 20px;
-}
 
-/* Scheule match */
 .schedule-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 20px;
     
 }
-.schedule-item{}
+.schedule-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 .country-flags{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.country-flags h2{
-    font-family: 'Poppins';
+.country-flags span {
+    margin: 0 15px;
+    font-family: var(--font-poppins);
+}
+.country-flags img{
+    width: 80%;
+}
+.schedule-item  h2{
+    font-family: var(--font-poppins);
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
     color: #161616;
+    margin: 10px 0;
 }
-.country-flags p{
+.schedule-item p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -223,4 +205,10 @@ hr{
     background: #ddd;
     block-size: 1px;
     margin: 30px 0;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
 }
